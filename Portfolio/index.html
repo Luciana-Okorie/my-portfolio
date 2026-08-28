@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lucy — Software Engineer and Full-Stack Developer building real-world digital products and scalable systems.">
+<title>Lucy | Software Engineer & Full-Stack Developer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress"></div>
+
+<header class="nav">
+  <a class="brand" href="#home">Lucy<span>.</span></a>
+  <nav id="navLinks">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="resume-btn" href="assets/Luciana_Okorie_Resume.pdf" target="_blank">Resume ↗</a>
+  <button class="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">SOFTWARE ENGINEER · FULL-STACK DEVELOPER</p>
+    <h1>I build products that<br><em>solve real problems.</em></h1>
+    <p class="lead">I design and build responsive interfaces, reliable APIs, real-time systems and distributed applications — from the first idea to a working product.</p>
+    <div class="actions">
+      <a class="primary" href="#work">Explore my work <span>↓</span></a>
+      <a class="secondary" href="assets/Luciana_Okorie_Resume.pdf" target="_blank">View resume ↗</a>
+    </div>
+    <div class="quick-links">
+      <a href="https://github.com/Luciana-Okorie" target="_blank">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/luciana-okorie-b6072b2b8" target="_blank">LinkedIn ↗</a>
+    </div>
+  </div>
+
+  <!-- IMAGE PLACEHOLDER: put your photo at assets/Lucy.jpg (or change the extension below) -->
+  <div class="portrait-card">
+    <div class="portrait-frame">
+      <img src="assets/Lucy.jpg" alt="Lucy — Software Engineer" onerror="this.style.display='none'; this.parentElement.classList.add('photo-missing');">
+      <div class="photo-placeholder">
+        <span>Lucy</span>
+        <small>Place your photo here</small>
+      </div>
+    </div>
+    <div class="portrait-note"><span></span> Currently building & learning in public</div>
+  </div>
+</section>
+
+<section class="proof-strip">
+  <div><strong>10+</strong><span>Engineering projects</span></div>
+  <div><strong>100</strong><span>Days of code challenge</span></div>
+  <div><strong>Full-stack</strong><span>Frontend → backend → systems</span></div>
+  <div><strong>Always</strong><span>Learning something new</span></div>
+</section>
+
+<section id="work" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">SELECTED WORK</p><h2>Things I've built.</h2></div>
+    <p>Projects are presented by the problem they solve — not just the technologies behind them.</p>
+  </div>
+  <div class="filters">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="systems">Systems</button>
+    <button class="filter" data-filter="realtime">Real-time</button>
+    <button class="filter" data-filter="ai">AI</button>
+    <button class="filter" data-filter="apps">Apps</button>
+  </div>
+  <div class="projects" id="projects">
+    <article class="project featured" data-cat="systems realtime" data-title="StreamPulse" data-stack="Go · Kafka · Redis · ClickHouse · WebSockets · Docker · OpenTelemetry"
+      data-desc="A real-time event analytics platform that ingests application events, processes them through a streaming pipeline, stores live state and historical analytics separately, and pushes dashboard updates without refresh."
+      data-link="https://github.com/Luciana-Okorie/streampulse">
+      <div class="project-top"><span>01 / SYSTEMS</span><span>CASE STUDY ↗</span></div>
+      <h3>StreamPulse</h3><p>Real-time event analytics without the refresh button.</p>
+      <div class="tags"><i>Go</i><i>Kafka</i><i>Redis</i><i>ClickHouse</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <article class="project" data-cat="systems realtime ai" data-title="CollabBoard" data-stack="Next.js · TypeScript · PostgreSQL · Redis · Yjs · Socket.IO · AI"
+      data-desc="A collaborative project-management platform with real-time task synchronization, presence, comments, role-based access and an AI assistant for breaking work into actionable tasks."
+      data-link="https://github.com/Luciana-Okorie/CollabBoard">
+      <div class="project-top"><span>02 / COLLABORATION</span><span>CASE STUDY ↗</span></div>
+      <h3>CollabBoard</h3><p>A shared workspace where teams can actually work together in real time.</p>
+      <div class="tags"><i>Next.js</i><i>Yjs</i><i>Redis</i><i>AI</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <article class="project" data-cat="systems" data-title="FulfillX" data-stack="Go · Kafka · PostgreSQL · Redis · Docker · OpenTelemetry"
+      data-desc="A distributed order-fulfillment platform designed around asynchronous service communication, idempotency, retries, transactional outbox patterns and failure recovery."
+      data-link="https://github.com/Luciana-Okorie/fulfillx">
+      <div class="project-top"><span>03 / DISTRIBUTED</span><span>CASE STUDY ↗</span></div>
+      <h3>FulfillX</h3><p>Order processing designed for failure, not just the happy path.</p>
+      <div class="tags"><i>Go</i><i>Kafka</i><i>PostgreSQL</i><i>Redis</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <article class="project" data-cat="systems ai" data-title="TrustLens" data-stack="Python · FastAPI · PostgreSQL · pgvector"
+      data-desc="An evidence-oriented AI backend connecting claims with supporting evidence through API workflows and vector search."
+      data-link="https://github.com/Luciana-Okorie/TrustLens">
+      <div class="project-top"><span>04 / AI</span><span>CASE STUDY ↗</span></div>
+      <h3>TrustLens</h3><p>Exploring how AI systems can connect claims to evidence.</p>
+      <div class="tags"><i>Python</i><i>FastAPI</i><i>pgvector</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <article class="project" data-cat="apps" data-title="CampusFlow" data-stack="React Native · Expo · TypeScript"
+      data-desc="A student-focused mobile productivity application designed to help students organize academic work and everyday tasks."
+      data-link="https://github.com/Luciana-Okorie/CampusFlow">
+      <div class="project-top"><span>05 / MOBILE</span><span>CASE STUDY ↗</span></div>
+      <h3>CampusFlow</h3><p>A mobile-first student productivity experience.</p>
+      <div class="tags"><i>React Native</i><i>Expo</i><i>TypeScript</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <article class="project" data-cat="realtime" data-title="FlowDesk" data-stack="React · TypeScript · Express · Prisma · Socket.IO"
+      data-desc="A real-time customer-support platform focused on role-based access, communication and support analytics."
+      data-link="https://github.com/Luciana-Okorie/FlowDesk">
+      <div class="project-top"><span>06 / REAL-TIME</span><span>CASE STUDY ↗</span></div>
+      <h3>FlowDesk</h3><p>Customer support with live communication and useful operational data.</p>
+      <div class="tags"><i>React</i><i>Express</i><i>Socket.IO</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="split section">
+  <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by default.<br>Serious about the work.</h2></div>
+  <div class="about-copy">
+    <p>I'm a Software Engineer and Full-Stack Developer who enjoys turning ideas into working software — especially when the problem is a little difficult.</p>
+    <p>My recent work has taken me from interfaces and APIs into event-driven architecture, real-time collaboration, distributed systems, AI integrations, databases, containers and observability.</p>
+    <p>I don't want to only know how to make an application work. I want to understand what happens when it gets busy, when a service fails, when data goes out of sync, and when users need it to feel effortless.</p>
+  </div>
+</section>
+
+<section id="journey" class="section journey">
+  <div class="section-head"><div><p class="eyebrow">THE JOURNEY</p><h2>100 days. One project at a time.</h2></div>
+  <p>I'm using the challenge to deliberately move beyond familiar tools and build the kind of engineering experience that can't come from tutorials alone.</p></div>
+  <div class="timeline">
+    <div><b>01–06</b><span>Foundations → full-stack applications</span></div>
+    <div><b>07</b><span>FulfillX → distributed order fulfillment</span></div>
+    <div><b>08</b><span>CampusFlow → mobile application</span></div>
+    <div><b>09</b><span>CollabBoard → real-time collaboration + AI</span></div>
+    <div><b>10</b><span>StreamPulse → event streaming + analytics</span></div>
+    <div><b>11+</b><span>More systems, more experiments, more learning.</span></div>
+  </div>
+</section>
+
+<section class="skills section">
+  <p class="eyebrow">CURRENT TOOLBOX</p>
+  <div class="skill-grid">
+    <div><b>Build</b><span>React · Next.js · Node.js · Express · Go · Python · React Native</span></div>
+    <div><b>Data</b><span>PostgreSQL · MongoDB · Redis · ClickHouse · Prisma · pgvector</span></div>
+    <div><b>Systems</b><span>Kafka · WebSockets · gRPC · REST · Event-driven architecture</span></div>
+    <div><b>Ship</b><span>Docker · Docker Compose · GitHub · Vercel · OpenTelemetry · Testing</span></div>
+  </div>
+</section>
+
+<section id="contact" class="contact section">
+  <p class="eyebrow">LET'S BUILD SOMETHING</p>
+  <h2>Have a problem worth solving?</h2>
+  <p>I'm open to software engineering and full-stack opportunities, collaborations and interesting products.</p>
+  <div class="contact-actions">
+    <button id="copyEmail" class="primary">Copy email</button>
+    <a class="secondary" href="mailto:lucianaokorie.c@gmail.com">Send an email ↗</a>
+  </div>
+  <div class="contact-links"><a href="https://github.com/Luciana-Okorie" target="_blank">GitHub</a><a href="https://www.linkedin.com/in/luciana-okorie-b6072b2b8" target="_blank">LinkedIn</a><a href="assets/Luciana_Okorie_Resume.pdf" target="_blank">Resume</a></div>
+</section>
+</main>
+
+<footer><span>Lucy © 2026</span><span>Built with curiosity & code.</span></footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" aria-label="Close">×</button>
+    <p class="eyebrow">CASE STUDY</p><h2 id="modalTitle"></h2><p id="modalDesc"></p><p class="modal-stack" id="modalStack"></p>
+    <a id="modalLink" class="primary" target="_blank">View on GitHub ↗</a>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
