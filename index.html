@@ -91,6 +91,28 @@
       <button class="case-btn">View case study →</button>
     </article>
 
+    <!-- FinPay: Go-based simulated payment platform. -->
+    <article class="project" data-cat="systems" data-title="FinPay"
+      data-stack="Go · PostgreSQL · gRPC/Protobuf · Redpanda · Redis · Docker · OpenTelemetry · Prometheus"
+      data-desc="A simulated payment and ledger system built around double-entry accounting. It uses idempotency, PostgreSQL row-level locking, transactional outbox delivery, reconciliation, gRPC contracts, and saga orchestration to protect financial correctness under retries, crashes, and concurrent transfers."
+      data-link="https://github.com/Luciana-Okorie/finpay">
+      <div class="project-top"><span>BACKEND / FINTECH SYSTEMS</span><span>CASE STUDY ↗</span></div>
+      <h3>FinPay</h3><p>A payment platform focused on ledger integrity and reliable transaction processing.</p>
+      <div class="tags"><i>Go</i><i>PostgreSQL</i><i>Redis</i><i>Redpanda</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
+    <!-- Payment Rail Resilience: Go and PostgreSQL project. -->
+    <article class="project" data-cat="systems" data-title="Payment Rail Resilience &amp; Reconciliation Engine"
+      data-stack="Go · PostgreSQL · Docker · REST · OpenAPI"
+      data-desc="A Go-based payment resilience engine that simulates partial payment-rail failures. It separates rail health, payment state, verification-before-retry, idempotent processing, and reconciliation so a delayed rail does not take down unaffected channels or cause duplicate credits."
+      data-link="https://github.com/Luciana-Okorie/payment-rail-resilience">
+      <div class="project-top"><span>BACKEND / PAYMENT RELIABILITY</span><span>CASE STUDY ↗</span></div>
+      <h3>Payment Rail Resilience</h3><p>Keeping payments consistent when one payment rail becomes unreliable.</p>
+      <div class="tags"><i>Go</i><i>PostgreSQL</i><i>Docker</i><i>OpenAPI</i></div>
+      <button class="case-btn">View case study →</button>
+    </article>
+
     <!-- KubeShield added: public repository link supplied for the project. -->
     <article class="project" data-cat="systems" data-title="KubeShield"
       data-stack="Go · Kubernetes · Docker · REST APIs"
@@ -167,14 +189,19 @@
     <div><b>08</b><span>CampusFlow → mobile application</span></div>
     <div><b>09</b><span>CollabBoard → real-time collaboration + AI</span></div>
     <div><b>10</b><span>StreamPulse → event streaming + analytics</span></div>
-    <div><b>11+</b><span>More systems, more experiments, more learning.</span></div>
+    <div><b>11</b><span>Payment Rail Resilience</span></div>
+    <div><b>12</b><span>Fintech Resilience Engine</span></div>
+    <div><b>13</b><span>ChainVault</span></div>
+    <div><b>14</b><span>Orbisflow</span></div>
+    <div><b>15</b><span>Concurrency Race Lab</span></div>
+    <div><b>16</b><span>KubeShield</span></div>
   </div>
 </section>
 
 <section class="skills section">
   <p class="eyebrow">CURRENT TOOLBOX</p>
   <div class="skill-grid">
-    <div><b>Build</b><span>React · Next.js · Node.js · Express · Go · Python · React Native</span></div>
+    <div><b>Build</b><span>React · Next.js · Node.js · NestJS · Express · Go · Python · React Native</span></div>
     <div><b>Data</b><span>PostgreSQL · MongoDB · Redis · ClickHouse · Prisma · pgvector</span></div>
     <div><b>Systems</b><span>Kafka · WebSockets · gRPC · REST · Event-driven architecture</span></div>
     <div><b>Ship</b><span>Docker · Docker Compose · GitHub · Vercel · OpenTelemetry · Testing</span></div>
