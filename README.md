@@ -1,4 +1,4 @@
-# Lucy — Software Engineer Portfolio
+# Luciana — Software Engineer Portfolio
 
 Personal portfolio showcasing my software engineering journey,
 selected projects, technical skills, experience, and 100 Days of
@@ -17,6 +17,7 @@ Code challenge.
 
 ## Featured Projects
 
+- YOVIQ
 - StreamPulse
 - FulfillX
 - CollabBoard
@@ -28,11 +29,8 @@ Code challenge.
 React · Next.js · TypeScript · JavaScript · Go · Python
 Node.js · PostgreSQL · Redis · Kafka · Docker
 
-## Run Locally
-
-Open `index.html` or run with VS Code Live Server.
-
 ## Contact
 
 GitHub: Luciana-Okorie
 LinkedIn: Luciana Okorie
+Instagram: luciana.okorie
